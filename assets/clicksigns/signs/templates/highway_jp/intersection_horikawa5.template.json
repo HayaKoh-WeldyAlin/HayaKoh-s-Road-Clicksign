@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "name": "方面及び方向案内標識 ―堀川五条",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/tilesets/highway_jp/information_blue.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 3,
+          "outputWidth": 52,
+          "outputHeight": 48
+        }
+      ]
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 52,
+          "outputHeight": 48
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 28,
+        "y": 31,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_up.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_up.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 28,
+        "y": 17,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_vertical.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_vertical.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            },
+            {
+              "type": "tiler",
+              "cornerSize": 0,
+              "outputWidth": 14,
+              "outputHeight": 96
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 26,
+        "y": 8,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_horizontal.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_horizontal.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            },
+            {
+              "type": "tiler",
+              "cornerSize": 0,
+              "outputWidth": 112,
+              "outputHeight": 14
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 6,
+        "y": 8,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_left.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_left.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 46,
+        "y": 8,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_right.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_right.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "text",
+        "x": 28,
+        "y": 43,
+        "alignment": "CENTER",
+        "scale": 1.5555556,
+        "text": "上賀茂",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 28,
+        "y": 38,
+        "alignment": "CENTER",
+        "scale": 0.8888889,
+        "text": "Kamigamo",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 12,
+        "y": 19,
+        "alignment": "CENTER",
+        "scale": 1.5555556,
+        "text": "福知山",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 12,
+        "y": 14,
+        "alignment": "CENTER",
+        "scale": 0.8888889,
+        "text": "Fukuchiyama",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 42,
+        "y": 21,
+        "alignment": "CENTER",
+        "scale": 1.5555556,
+        "text": "大津",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 42,
+        "y": 16,
+        "alignment": "CENTER",
+        "scale": 0.8888889,
+        "text": "Otsu",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "x": 12,
+        "y": 8,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/onigiri.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/onigiri.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "#0566AE",
+              "from": "#0140FF"
+            }
+          ]
+        },
+        "scale": 0.4
+      },
+      {
+        "type": "symbol",
+        "x": 41,
+        "y": 8,
+        "alignment": "TOP_CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/onigiri.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/onigiri.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "#0566AE",
+              "from": "#0140FF"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 41,
+        "y": 8,
+        "alignment": "BOTTOM_CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/onigiri.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/onigiri.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "#0566AE",
+              "from": "#0140FF"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 28,
+        "y": 25,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/hexa.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/hexa.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "#0566AE",
+              "from": "#0140FF"
+            }
+          ]
+        },
+        "scale": 0.4
+      },
+      {
+        "type": "text",
+        "x": 28,
+        "y": 25,
+        "alignment": "CENTER",
+        "scale": 1.1111112,
+        "text": "38",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 12,
+        "y": 9,
+        "alignment": "CENTER",
+        "scale": 1.1111112,
+        "text": "9",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 41,
+        "y": 6,
+        "alignment": "CENTER",
+        "scale": 1.0,
+        "text": "9",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 41,
+        "y": 11,
+        "alignment": "CENTER",
+        "scale": 1.0,
+        "text": "1",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "plate",
+        "x": 28,
+        "y": 9,
+        "alignment": "CENTER",
+        "front": {
+          "base": "clicksigns:signs/tilesets/street_jp/street.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 20,
+              "outputHeight": 8
+            }
+          ]
+        },
+        "back": {
+          "base": "clicksigns:signs/tilesets/backs/back.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 20,
+              "outputHeight": 8
+            }
+          ]
+        },
+        "match": false
+      },
+      {
+        "type": "text",
+        "x": 28,
+        "y": 9,
+        "alignment": "CENTER",
+        "scale": 0.8888889,
+        "text": "五条通り",
+        "style": {
+          "color": "#0566AE",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "plate",
+        "x": 12,
+        "y": 29,
+        "alignment": "CENTER",
+        "front": {
+          "base": "clicksigns:signs/tilesets/highway_jp/information_blue.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 3,
+              "outputWidth": 20,
+              "outputHeight": 13
+            },
+            {
+              "type": "replaceColor",
+              "to": "#008766",
+              "from": "#0566AE"
+            }
+          ]
+        },
+        "back": {
+          "base": "clicksigns:signs/tilesets/backs/back.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 20,
+              "outputHeight": 13
+            }
+          ]
+        },
+        "match": false
+      },
+      {
+        "type": "text",
+        "x": 12,
+        "y": 32,
+        "alignment": "CENTER",
+        "scale": 1.0,
+        "text": "E9",
+        "style": {
+          "color": "foreground",
+          "outlineColor": "white",
+          "outlineWidth": 1,
+          "paddingX": 1,
+          "paddingY": 0,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 12,
+        "y": 28,
+        "alignment": "CENTER",
+        "scale": 0.8888889,
+        "text": "京都縦貫道",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 12,
+        "y": 25,
+        "alignment": "CENTER",
+        "scale": 0.5555556,
+        "text": "KYOTO-JUKAN EXP.",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      }
+    ],
+    "alignment": "TOP_CENTER"
+  }
+}

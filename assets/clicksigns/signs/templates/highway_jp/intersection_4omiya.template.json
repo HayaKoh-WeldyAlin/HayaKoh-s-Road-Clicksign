@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "name": "方面及び方向案内標識 ―四条大宮",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/tilesets/highway_jp/information_blue.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 3,
+          "outputWidth": 52,
+          "outputHeight": 40
+        }
+      ]
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 52,
+          "outputHeight": 40
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 20,
+        "y": 26,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_lefterup.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_lefterup.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 28,
+        "y": 7,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_vertical.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_vertical.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            },
+            {
+              "type": "tiler",
+              "cornerSize": 0,
+              "outputWidth": 14,
+              "outputHeight": 32
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 28,
+        "y": 9,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_horizontal.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_horizontal.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            },
+            {
+              "type": "tiler",
+              "cornerSize": 0,
+              "outputWidth": 104,
+              "outputHeight": 14
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 10,
+        "y": 9,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_left.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_left.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 46,
+        "y": 9,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_right.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/arrow_right.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "text",
+        "x": 15,
+        "y": 35,
+        "alignment": "CENTER",
+        "scale": 1.3333334,
+        "text": "千本丸太町",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 15,
+        "y": 31,
+        "alignment": "CENTER",
+        "scale": 0.6666667,
+        "text": "Senbonmarutamachi",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 11,
+        "y": 18,
+        "alignment": "CENTER",
+        "scale": 1.1111112,
+        "text": "西大路四条",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 11,
+        "y": 15,
+        "alignment": "CENTER",
+        "scale": 0.6666667,
+        "text": "Nishiojishijo",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 43,
+        "y": 18,
+        "alignment": "CENTER",
+        "scale": 1.2222222,
+        "text": "四条堀川",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 43,
+        "y": 15,
+        "alignment": "CENTER",
+        "scale": 0.6666667,
+        "text": "Shijohorikawa",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "x": 14,
+        "y": 9,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/hexa.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/hexa.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "#0566AE",
+              "from": "#0140FF"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "text",
+        "x": 14,
+        "y": 9,
+        "alignment": "CENTER",
+        "scale": 0.6666667,
+        "text": "186",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "x": 24,
+        "y": 18,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_diagonal_downunder.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_diagonal_downunder.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 26,
+        "y": 14,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_diagonal_downunder.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_diagonal_downunder.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "symbol",
+        "x": 22,
+        "y": 22,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_diagonal_downunder.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_diagonal_downunder.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "text",
+        "x": 38,
+        "y": 35,
+        "alignment": "CENTER",
+        "scale": 1.3333334,
+        "text": "二条駅",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 38,
+        "y": 31,
+        "alignment": "CENTER",
+        "scale": 0.6666667,
+        "text": "Nijo Sta.",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "x": 28,
+        "y": 12,
+        "alignment": "TOP_CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_vertical.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/information/bar_vertical.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            },
+            {
+              "type": "tiler",
+              "cornerSize": 0,
+              "outputWidth": 6,
+              "outputHeight": 24
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "plate",
+        "x": 28,
+        "y": 10,
+        "alignment": "CENTER",
+        "front": {
+          "base": "clicksigns:signs/tilesets/street_jp/street.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 20,
+              "outputHeight": 8
+            }
+          ]
+        },
+        "back": {
+          "base": "clicksigns:signs/tilesets/backs/back.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 20,
+              "outputHeight": 8
+            }
+          ]
+        },
+        "match": false
+      },
+      {
+        "type": "text",
+        "x": 28,
+        "y": 10,
+        "alignment": "CENTER",
+        "scale": 0.8888889,
+        "text": "四条通り",
+        "style": {
+          "color": "#0566AE",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "symbol",
+        "x": 42,
+        "y": 9,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/hexa.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/hexa.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "#0566AE",
+              "from": "#0140FF"
+            }
+          ]
+        },
+        "scale": 0.3
+      },
+      {
+        "type": "text",
+        "x": 42,
+        "y": 9,
+        "alignment": "CENTER",
+        "scale": 0.6666667,
+        "text": "186",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      }
+    ],
+    "alignment": "TOP_CENTER"
+  }
+}

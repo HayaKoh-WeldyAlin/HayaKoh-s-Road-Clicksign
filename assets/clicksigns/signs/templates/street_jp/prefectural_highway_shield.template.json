@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "name": "都道府県道",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/tilesets/street_jp/major_left.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 26,
+          "outputHeight": 8
+        }
+      ]
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 26,
+          "outputHeight": 8
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 13,
+        "y": 4,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/hexa.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/hexa.png",
+          "processors": []
+        },
+        "scale": 0.6
+      },
+      {
+        "type": "text",
+        "x": 13,
+        "y": 4,
+        "alignment": "CENTER",
+        "scale": 1.3333334,
+        "text": "201",
+        "style": {
+          "color": "white",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}

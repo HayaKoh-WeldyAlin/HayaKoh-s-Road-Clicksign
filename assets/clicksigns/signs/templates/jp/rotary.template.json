@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "ロータリーあり",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/yellow_diamond.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 8,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/rotary.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/rotary.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.25
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}

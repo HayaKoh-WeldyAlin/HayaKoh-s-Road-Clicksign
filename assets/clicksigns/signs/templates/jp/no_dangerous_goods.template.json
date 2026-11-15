@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "危険物積載車両通行止め",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/prohibited.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "text",
+        "x": 8,
+        "y": 8,
+        "alignment": "CENTER",
+        "scale": 1.0,
+        "text": "危険物",
+        "style": {
+          "color": "foreground",
+          "backgroundColor": "white",
+          "outlineWidth": 1,
+          "paddingX": 0,
+          "paddingY": 0,
+          "textAlignment": 1,
+          "lineGap": 0,
+          "bold": true
+        }
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}
