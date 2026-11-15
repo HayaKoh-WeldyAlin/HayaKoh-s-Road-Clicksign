@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "一方通行",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/blue_rectangle.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 16,
+          "outputHeight": 10
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 5,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/longarrow_left.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/longarrow_left.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.4
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}

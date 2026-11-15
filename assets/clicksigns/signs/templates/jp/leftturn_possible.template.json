@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "name": "左折可",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/white_rectangle.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 16,
+          "outputHeight": 10
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 5,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/longarrow_left.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/longarrow_left.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.4
+      },
+      {
+        "type": "plate",
+        "x": 8,
+        "y": -4,
+        "alignment": "CENTER",
+        "front": {
+          "base": "clicksigns:signs/tilesets/highway_jp/auxiliary.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 20,
+              "outputHeight": 5
+            }
+          ]
+        },
+        "back": {
+          "base": "clicksigns:signs/tilesets/backs/back.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 20,
+              "outputHeight": 5
+            }
+          ]
+        },
+        "match": false
+      },
+      {
+        "type": "text",
+        "x": 8,
+        "y": -4,
+        "alignment": "CENTER",
+        "scale": 1.0,
+        "text": "常時左折可",
+        "style": {
+          "color": "black",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}
