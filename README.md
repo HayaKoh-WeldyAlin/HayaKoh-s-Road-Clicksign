@@ -27,7 +27,7 @@ Please note that all of the following text is also written in Japanese.<br>
 ※撮影時に Modern UI を使用しています。フォントは使用環境により異なります。
 
 <img alt="堀川五条の標識群" src="https://github.com/HayaKoh-WeldyAlin/HayaKoh-s-Road-Clicksign/blob/main/Gallery/Horikawagojo.png" />
-<img alt="準備中" src="" />
+<img alt="いろいろな標識" src="https://github.com/HayaKoh-WeldyAlin/HayaKoh-s-Road-Clicksign/blob/main/Gallery/signs1.png" />
 
 ## リクエスト
 あまり積極的な対応ができない可能性があります。
