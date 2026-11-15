@@ -1,0 +1,9 @@
+{
+  "name": "Highway-JP",
+  "default": {
+    "cornerSize": 3,
+    "colors": {
+      "foreground": "#0566AE"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Street-JP",
+  "default": {
+    "cornerSize": 4,
+    "colors": {
+      "foreground": "#0566AE"
+    }
+  }
+}
