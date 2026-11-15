@@ -1,0 +1,2 @@
+# HayaKoh-s-Road-Clicksign
+MinecraftのClicksignMod用の道路標識を追加する拡張リソースパック
