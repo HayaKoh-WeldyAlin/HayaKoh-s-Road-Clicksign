@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "name": "大型車通行止め",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/prohibited.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 8,
+        "alignment": "TOP_CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/truck.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/truck.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.4
+      },
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 6,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/bus.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/bus.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.4
+      },
+      {
+        "type": "plate",
+        "x": 8,
+        "y": -5,
+        "alignment": "CENTER",
+        "front": {
+          "base": "clicksigns:signs/tilesets/highway_jp/auxiliary.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 19,
+              "outputHeight": 8
+            }
+          ]
+        },
+        "back": {
+          "base": "clicksigns:signs/tilesets/backs/back.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 19,
+              "outputHeight": 8
+            }
+          ]
+        },
+        "match": false
+      },
+      {
+        "type": "text",
+        "x": 8,
+        "y": -5,
+        "alignment": "CENTER",
+        "scale": 1.0,
+        "text": "路線バス・\nﾏｲｸﾛを除く",
+        "style": {
+          "color": "black",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}
