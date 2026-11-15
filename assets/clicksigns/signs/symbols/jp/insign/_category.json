@@ -1,0 +1,14 @@
+{
+  "name": "JP Sign symbols",
+  "default": {
+    "texture": {
+      "processors": [
+        {
+          "type": "replaceColor",
+          "to": "foreground",
+          "from": "#000000"
+        }
+      ]
+    }
+  }
+}
