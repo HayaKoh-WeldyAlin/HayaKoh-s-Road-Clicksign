@@ -1,0 +1,14 @@
+{
+  "name": "Arrows (Highway-JP)",
+  "priority": 10,
+  "default": {
+    "texture": {
+      "processors": [
+        {
+          "type": "replaceColor",
+          "to": "foreground"
+        }
+      ]
+    }
+  }
+}
