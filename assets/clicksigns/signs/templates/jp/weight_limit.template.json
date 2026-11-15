@@ -22,11 +22,11 @@
     "elements": [
       {
         "type": "text",
-        "x": 6,
+        "x": 7,
         "y": 8,
         "alignment": "CENTER",
         "scale": 1.8888888,
-        "text": "5",
+        "text": "5.",
         "style": {
           "color": "foreground",
           "outlineWidth": 1,
@@ -39,11 +39,11 @@
       },
       {
         "type": "text",
-        "x": 9,
+        "x": 10,
         "y": 5,
         "alignment": "TOP_CENTER",
         "scale": 1.3333334,
-        "text": ".5",
+        "text": "5",
         "style": {
           "color": "foreground",
           "outlineWidth": 1,
