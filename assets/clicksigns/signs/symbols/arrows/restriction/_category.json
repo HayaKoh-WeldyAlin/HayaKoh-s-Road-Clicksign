@@ -1,0 +1,15 @@
+{
+  "name": "Arrows (Highway-JP Turning restrictions)",
+  "priority": 10,
+  "default": {
+    "defaultScale": 0.5,
+    "texture": {
+      "processors": [
+        {
+          "type": "replaceColor",
+          "to": "foreground"
+        }
+      ]
+    }
+  }
+}
