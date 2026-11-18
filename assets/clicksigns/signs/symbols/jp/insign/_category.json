@@ -1,6 +1,7 @@
 {
   "name": "JP Sign symbols",
   "default": {
+    "defaultScale": 0.5,
     "texture": {
       "processors": [
         {
