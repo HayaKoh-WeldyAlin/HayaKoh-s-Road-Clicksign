@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "name": "広域災害応急対策車両専用",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/blue_circle.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 8,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/disastermanagement.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/disastermanagement.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "text",
+        "x": 8,
+        "y": 14,
+        "alignment": "BOTTOM_CENTER",
+        "scale": 0.6666667,
+        "text": "災害対策",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      },
+      {
+        "type": "text",
+        "x": 8,
+        "y": 2,
+        "alignment": "TOP_CENTER",
+        "scale": 0.33333334,
+        "text": "Disaster\nManagement",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0,
+          "bold": true
+        }
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}

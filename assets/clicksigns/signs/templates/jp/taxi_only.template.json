@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "name": "タクシー専用",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/blue_circle.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 8,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/taxi.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/taxi.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "text",
+        "x": 8,
+        "y": 6,
+        "alignment": "TOP_CENTER",
+        "scale": 0.6666667,
+        "text": "TAXI",
+        "style": {
+          "color": "#0566AE",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0,
+          "bold": true
+        }
+      }
+    ],
+    "alignment": "TOP_CENTER"
+  }
+}

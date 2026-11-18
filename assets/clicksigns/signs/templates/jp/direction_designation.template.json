@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "name": "指定方向外進行禁止",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/blue_circle.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 8,
+        "alignment": "TOP_CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/restriction/straight_small.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/restriction/straight_small.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 7,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/restriction/vertical_thin.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/restriction/vertical_thin.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "symbol",
+        "x": 14,
+        "y": 6,
+        "alignment": "CENTER_LEFT",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/restriction/curve_right_small.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/restriction/curve_right_small.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "symbol",
+        "x": 2,
+        "y": 7,
+        "alignment": "CENTER_RIGHT",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/restriction/curve_left_small.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/restriction/curve_left_small.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 4,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/restriction/vertical_thin.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/restriction/vertical_thin.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 9,
+        "alignment": "CENTER_LEFT",
+        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/restriction/vertical_thin.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/arrows/highway_jp/restriction/vertical_thin.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "foreground"
+            },
+            {
+              "type": "rotate",
+              "degrees": 135
+            }
+          ]
+        },
+        "scale": 0.5
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}
