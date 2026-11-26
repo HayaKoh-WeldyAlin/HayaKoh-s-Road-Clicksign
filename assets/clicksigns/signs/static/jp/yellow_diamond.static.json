@@ -1,5 +1,6 @@
 {
   "colors": {
-    "foreground": "black"
+    "foreground": "black",
+    "background": "#FCDC0F"
   }
 }
