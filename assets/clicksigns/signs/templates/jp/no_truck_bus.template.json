@@ -31,6 +31,11 @@
           "processors": [
             {
               "type": "replaceColor",
+              "to": "background",
+              "from": "#FFFFFF"
+            },
+            {
+              "type": "replaceColor",
               "to": "foreground",
               "from": "#000000"
             }
@@ -47,6 +52,11 @@
         "texture": {
           "base": "clicksigns:signs/symbols/jp/insign/bus.png",
           "processors": [
+            {
+              "type": "replaceColor",
+              "to": "background",
+              "from": "#FFFFFF"
+            },
             {
               "type": "replaceColor",
               "to": "foreground",
