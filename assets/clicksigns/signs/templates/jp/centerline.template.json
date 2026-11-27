@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "name": "中央線",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/blue_square.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 9,
+        "alignment": "BOTTOM_CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/short_arrow_down.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/short_arrow_down.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "background",
+              "from": "#FFFFFF"
+            },
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.5
+      },
+      {
+        "type": "text",
+        "x": 8,
+        "y": 12,
+        "alignment": "CENTER",
+        "scale": 1.3333334,
+        "text": "中央線",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 1,
+          "textAlignment": 1,
+          "lineGap": 0
+        }
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}
