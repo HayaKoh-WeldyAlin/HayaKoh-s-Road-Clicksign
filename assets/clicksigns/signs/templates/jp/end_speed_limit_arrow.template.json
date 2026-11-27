@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "name": "制限速度終了",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/red_outline_circle.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "text",
+        "x": 8,
+        "y": 8,
+        "alignment": "CENTER",
+        "scale": 1.8888888,
+        "text": "40",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 2,
+          "textAlignment": 1,
+          "lineGap": 0,
+          "bold": true
+        }
+      },
+      {
+        "type": "plate",
+        "x": 8,
+        "y": -4,
+        "alignment": "CENTER",
+        "front": {
+          "base": "clicksigns:signs/tilesets/highway_jp/auxiliary.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 2,
+              "outputWidth": 16,
+              "outputHeight": 6
+            }
+          ]
+        },
+        "back": {
+          "base": "clicksigns:signs/tilesets/backs/back.png",
+          "processors": [
+            {
+              "type": "tiler",
+              "cornerSize": 4,
+              "outputWidth": 16,
+              "outputHeight": 6
+            }
+          ]
+        },
+        "match": false
+      },
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": -4,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/red_arrow_end.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/red_arrow_end.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "background",
+              "from": "#FFFFFF"
+            },
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.5
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}
