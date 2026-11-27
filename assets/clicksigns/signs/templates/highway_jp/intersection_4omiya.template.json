@@ -228,13 +228,7 @@
         "symbol": "clicksigns:signs/symbols/jp/hexa.png",
         "texture": {
           "base": "clicksigns:signs/symbols/jp/hexa.png",
-          "processors": [
-            {
-              "type": "replaceColor",
-              "to": "#0566AE",
-              "from": "#0140FF"
-            }
-          ]
+          "processors": []
         },
         "scale": 0.3
       },
@@ -413,13 +407,7 @@
         "symbol": "clicksigns:signs/symbols/jp/hexa.png",
         "texture": {
           "base": "clicksigns:signs/symbols/jp/hexa.png",
-          "processors": [
-            {
-              "type": "replaceColor",
-              "to": "#0566AE",
-              "from": "#0140FF"
-            }
-          ]
+          "processors": []
         },
         "scale": 0.3
       },
