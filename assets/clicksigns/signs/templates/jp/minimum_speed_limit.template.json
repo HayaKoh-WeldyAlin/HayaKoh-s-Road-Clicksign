@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "name": "最低速度",
+    "author": "HayaKoh"
+  },
+  "sign": {
+    "front": {
+      "base": "clicksigns:signs/static/jp/red_outline_circle.png",
+      "processors": []
+    },
+    "back": {
+      "base": "clicksigns:signs/tilesets/backs/back.png",
+      "processors": [
+        {
+          "type": "tiler",
+          "cornerSize": 4,
+          "outputWidth": 32,
+          "outputHeight": 16
+        }
+      ]
+    },
+    "elements": [
+      {
+        "type": "text",
+        "x": 8,
+        "y": 8,
+        "alignment": "CENTER",
+        "scale": 1.8888888,
+        "text": "30",
+        "style": {
+          "color": "foreground",
+          "outlineWidth": 1,
+          "paddingX": 2,
+          "paddingY": 2,
+          "textAlignment": 1,
+          "lineGap": 0,
+          "bold": true
+        }
+      },
+      {
+        "type": "symbol",
+        "x": 8,
+        "y": 4,
+        "alignment": "CENTER",
+        "symbol": "clicksigns:signs/symbols/jp/insign/underscore.png",
+        "texture": {
+          "base": "clicksigns:signs/symbols/jp/insign/underscore.png",
+          "processors": [
+            {
+              "type": "replaceColor",
+              "to": "background",
+              "from": "#FFFFFF"
+            },
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
+            }
+          ]
+        },
+        "scale": 0.5
+      }
+    ],
+    "alignment": "CENTER"
+  }
+}
