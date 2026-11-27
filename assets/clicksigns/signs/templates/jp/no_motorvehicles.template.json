@@ -49,6 +49,11 @@
           "processors": [
             {
               "type": "replaceColor",
+              "to": "background",
+              "from": "#FFFFFF"
+            },
+            {
+              "type": "replaceColor",
               "to": "foreground",
               "from": "#000000"
             }

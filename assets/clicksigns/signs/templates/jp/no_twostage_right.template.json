@@ -25,13 +25,19 @@
         "x": 8,
         "y": 8,
         "alignment": "CENTER",
-        "symbol": "clicksigns:signs/symbols/arrows/highway_jp/restriction/twostage_right.png",
+        "symbol": "clicksigns:signs/symbols/jp/insign/twostage_right.png",
         "texture": {
-          "base": "clicksigns:signs/symbols/arrows/highway_jp/restriction/twostage_right.png",
+          "base": "clicksigns:signs/symbols/jp/insign/twostage_right.png",
           "processors": [
             {
               "type": "replaceColor",
-              "to": "foreground"
+              "to": "background",
+              "from": "#FFFFFF"
+            },
+            {
+              "type": "replaceColor",
+              "to": "foreground",
+              "from": "#000000"
             }
           ]
         },
