@@ -1,7 +1,7 @@
 # HayaKoh-s-Road-Clicksign
 MinecraftのClicksignMod用の道路標識を追加する拡張リソースパック
 
-Modrinthページは準備中です
+Modrinthページは[こちら](https://modrinth.com/resourcepack/hayakohs-road-clicksign)
 
 ## ⚠注意 Attention⚠
 This resource pack has been created for Japanese users, so it may be difficult to use in other languages.
